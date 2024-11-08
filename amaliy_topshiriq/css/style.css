@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav .container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container ul {
+  display: flex;
+  gap: 30px;
+}
+nav .container ul li {
+  list-style: none;
+}
+nav .container ul li a {
+  text-decoration: none;
+  color: rgba(25, 24, 37, 0.5019607843);
+}
+nav .container ul li a:hover {
+  color: #222831;
+}
+nav .container .btns {
+  width: 220px;
+  height: 50px;
+  display: flex;
+}
+nav .container .btns .btn-1 {
+  background-color: #fff;
+  color: #000;
+  width: 110px;
+  border: 0px;
+}
+nav .container .btns .btn-1:hover {
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #5D50C6;
+  color: #fff;
+}
+nav .container .btns .btn-2 {
+  width: 110px;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #5D50C6;
+  border: 0px;
+  color: #fff;
+}
+
+header .container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+header .container .header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+header .container .header-content .explore-btn button {
+  background-color: #fff;
+  color: #F85E9F;
+  border: 0px;
+  width: 225px;
+  height: 55px;
+  border-radius: 100px;
+  box-shadow: 0px 10px 23px -5px rgba(34, 60, 80, 0.13);
+}
+header .container .header-content .explore-btn button:hover {
+  background-color: #F85E9F;
+  color: #fff;
+}
+header .container .header-content .big-tittle h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+header .container .header-content .big-tittle h1 span {
+  color: #F85E9F;
+}
+header .container .header-content .paragragh p {
+  color: rgba(25, 24, 37, 0.5019607843);
+  font-size: 18px;
+  font-weight: 400;
+}
+header .container .header-content .header-btns {
+  width: 340px;
+  height: 55px;
+}
+header .container .header-content .header-btns .btn1 {
+  width: 140px;
+  height: 50px;
+  background-color: #5D50C6;
+  color: #fff;
+  border-radius: 100px;
+  border: 0px;
+}
+header .container .header-content .header-btns .btn2 {
+  width: 180px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid rgba(117, 117, 117, 0.5019607843);
+  background-color: #fff;
+}
+header .container .header-content .header-btns .btn2 svg {
+  background-color: #5D50C6;
+  border-radius: 50%;
+  color: #fff;
+  border: 0px;
+  font-size: larger;
+}
+header .container .header-content .header-btns .btn2:hover {
+  background-color: #5D50C6;
+  color: #fff;
+}
+
+section .container .container2 {
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-part .container {
+  display: flex;
+  height: 570px;
+  align-items: center;
+}
+.services-part .container .services-carausel-content {
+  width: 30%;
+}
+.services-part .container .services-carausel {
+  width: 70%;
+}
+.services-card {
+  width: 350px;
+  height: 445px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0px 10px 23px -5px rgba(34, 60, 80, 0.13);
+}
+
+.cards-part {
+  margin: 50px 0 50px 0;
+}
+.cards-part .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cards-part .container .content-part h3 {
+  color: #F85E9F;
+}
+.cards-part .container .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-part .container .cards .card {
+  width: 375px;
+  height: 575px;
+  border-radius: 30px;
+}
+.cards-part .container .cards .card .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+}
+.cards-part .container .cards .card .card-content .top-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cards-part .container .cards .card .card-content .top-part h6 {
+  color: #F85E9F;
+}
+.cards-part .container .cards .card .card-content .middle-part h5 {
+  color: rgba(25, 24, 37, 0.7490196078);
+}
+.cards-part .container .cards .card .card-content .bottom-part h5 {
+  color: #FF5722;
+}
+
+footer .container {
+  display: flex;
+  gap: 20px;
+}
+
+.box0 {
+  width: 560px;
+  height: 279px;
+  gap: 64px;
+  margin-top: 20px;
+}
+
+.box {
+  width: 166px;
+  height: 211px;
+  gap: 32px;
+}
+
+.box1 {
+  width: 166px;
+  height: 272px;
+  gap: 32px;
+}
+
+.box2 {
+  width: 166px;
+  height: 306px;
+  gap: 32px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
